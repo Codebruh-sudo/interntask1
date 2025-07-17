@@ -1,32 +1,50 @@
-# 🚀 Internship Task — Custom Strapi Project
 
-This repository delivers a custom Strapi setup built as part of my internship at [Company or Team Name].
+Branch: abhi-task1-final Author: ABHI — Code Deployers Intern
 
-## 📦 Project Overview
+🛠️ What This Is
+This project is a Strapi backend tailored for local development and content modeling. Built as part of Internship Task 1, it includes customized content types, schema structure, and onboarding scaffolding to support future use and extension.
 
-- 🧠 Headless CMS using Strapi
-- ✅ Custom content-type schema for structured data
-- 🔐 Environment config via `.env.example`
-- 🧪 Integrated with CI/CD (GitHub Actions)
-- 📸 Screenshot previews in README
+🌱 Features Delivered
+Modular backend with custom content types
 
-## 📂 Tech Stack
+File upload and JSON output enabled
 
-- Strapi (Community Edition)
-- Node.js 20.x
-- PostgreSQL / SQLite (local testing)
-- Docker (dev container setup)
-- GitHub Actions for deployment automation
+.env.example for safe environment setup
 
-## 📷 Screenshot
+Clean folder structure for easy onboarding
 
-![Project Screenshot](path-to-your-screenshot.png)
+Repo hygiene: all work committed via abhi-task1-final
 
-## ⚙️ Setup Instructions
-
-```bash
-git clone git@github.com:Codebruh-sudo/interntask1.git
+📂 Project Layout
+plaintext
+interntask1/
+└── strapi/
+    ├── config/          # Strapi config files
+    ├── src/             # API schemas & components
+    ├── public/          # Static assets
+    ├── .env.example     # Environment variables template
+    └── README.md        # This file
+⚙️ How to Run Locally
+bash
+# Clone the repo
+git clone https://github.com/Codebruh-sudo/interntask1.git
 cd interntask1/strapi
-yarn install
-yarn develop
 
+# Install dependencies
+yarn install
+
+# Set up your environment
+cp .env.example .env
+
+# Start the server
+yarn develop
+Visit: http://localhost:1337/admin
+
+🤝 Collaboration Notes
+All changes tracked in abhi-task1-final
+
+No direct pushes to main
+
+Structure prepared for containerization (Task 2)
+
+Ready for future linting, CI, and security scans
